@@ -1,27 +1,51 @@
-# AngularElectron
+# Angular PDF Viewer (ngx-extended-pdf-viewer)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
+An Angular application that renders PDF files in the browser using `ngx-extended-pdf-viewer`. Includes an optional Express server for production serving.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- In-browser PDF rendering using `ngx-extended-pdf-viewer`
+- Customer document viewer UI
+- Express server for serving the production build
 
-## Code scaffolding
+## Tech Stack
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular (CLI v8.0.6)
+- TypeScript
+- ngx-extended-pdf-viewer
+- Express.js
 
-## Build
+## Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- [Node.js](https://nodejs.org/) v12+
+- Angular CLI: `npm install -g @angular/cli`
 
-## Running unit tests
+## Getting Started
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+git clone https://github.com/ahasan09/angular-pdf-viewer-ngx
+cd angular-pdf-viewer-ngx
+npm install
+ng serve
+```
 
-## Running end-to-end tests
+Open [http://localhost:4200](http://localhost:4200).
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Commands
 
-## Further help
+| Command | Description |
+|---------|-------------|
+| `ng serve` | Start Angular dev server on port 4200 |
+| `ng build --prod` | Production build to `dist/` |
+| `node server.js` | Serve the production build with Express |
+| `ng test` | Run unit tests (Karma) |
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Project Structure
+
+```
+src/app/
+├── pdfviewer/    # PDF viewer component
+├── customers/    # Customer document list
+├── shared/       # Shared components
+└── common/       # Common utilities
+```
