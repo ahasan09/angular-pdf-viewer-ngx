@@ -1,0 +1,48 @@
+
+> angular-electron@0.0.0 test
+> NG_CLI_ANALYTICS=false NODE_OPTIONS=--openssl-legacy-provider ng test --watch=false --browsers=ChromeHeadless
+
+Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+(node:74516) Warning: Accessing non-existent property 'cat' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:74516) Warning: Accessing non-existent property 'cd' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'chmod' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'cp' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'dirs' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'pushd' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'popd' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'echo' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'tempdir' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'pwd' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'exec' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'ls' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'find' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'grep' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'head' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'ln' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'mkdir' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'rm' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'mv' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'sed' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'set' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'sort' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'tail' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'test' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'to' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'toEnd' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'touch' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'uniq' of module exports inside circular dependency
+(node:74516) Warning: Accessing non-existent property 'which' of module exports inside circular dependency
+[32m29 04 2026 00:27:01.301:INFO [karma-server]: [39mKarma v4.1.0 server started at http://0.0.0.0:9876/
+[32m29 04 2026 00:27:01.302:INFO [launcher]: [39mLaunching browsers ChromeHeadless with concurrency unlimited
+[32m29 04 2026 00:27:01.303:INFO [launcher]: [39mStarting browser ChromeHeadless
+[32m29 04 2026 00:27:02.477:INFO [HeadlessChrome 147.0.0 (Mac OS X 10.15.7)]: [39mConnected on socket 6nOTd66X7FdbSgF0AAAA with id 97049865
+HeadlessChrome 147.0.0 (Mac OS X 10.15.7) INFO: '====Shadow Dom polyfill not needed====='
+
+HeadlessChrome 147.0.0 (Mac OS X 10.15.7) INFO: '====Shadow Dom polyfill not needed====='
+
+[1A[2KHeadlessChrome 147.0.0 (Mac OS X 10.15.7): Executed 0 of 1 SUCCESS (0 secs / 0 secs)
+[1A[2KHeadlessChrome 147.0.0 (Mac OS X 10.15.7): Executed 1 of 1 SUCCESS (0 secs / 0.02 secs)
+[1A[2KHeadlessChrome 147.0.0 (Mac OS X 10.15.7): Executed 1 of 1 SUCCESS (0.023 secs / 0.02 secs)
+TOTAL: 1 SUCCESS
+TOTAL: 1 SUCCESS

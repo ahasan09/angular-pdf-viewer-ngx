@@ -4,11 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "build": "ng build",
-    "test": "ng test",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider ng build",
+    "test": "NG_CLI_ANALYTICS=false NODE_OPTIONS=--openssl-legacy-provider ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "heroku-postbuild": "ng build --prod",
+    "heroku-postbuild": "NODE_OPTIONS=--openssl-legacy-provider ng build --prod",
     "dist": "http-server -c-1 ./dist"
   },
   "private": true,
