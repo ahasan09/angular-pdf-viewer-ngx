@@ -1,3 +1,7 @@
+> [!WARNING]
+> **📦 ARCHIVED** — This repository is no longer maintained.
+> Built on Angular 8 (end-of-life). See [ng-pdf-viewer](https://github.com/ahasan09/ng-pdf-viewer) for the maintained Angular 19 equivalent.
+
 # Angular PDF Viewer (ngx-extended-pdf-viewer)
 
 An Angular application that renders PDF files in the browser using `ngx-extended-pdf-viewer`. Includes an optional Express server for production serving.
